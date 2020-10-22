@@ -39,7 +39,7 @@ uic.edu:rewards
 xyz.com:user1
 ```
 
-This will display the contents of the spamlist, which in this case is'spamlist1.txt'
+This will display the contents of the spamlist, which in this case is 'spamlist1.txt'
 
 ### check
 
