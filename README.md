@@ -4,7 +4,7 @@ This program replicates an email filtering system, in which spam is identified b
 
 ## Usage
 
-The program has four commands:
+The program has five commands:
 
 1. load [spam list file name].txt
 2. display
