@@ -1,30 +1,16 @@
 # Spam Filter
 
-This program replicates an email filtering system, in which spam is identified based on a "spam list" and is excluded from an output file that contains only non-spam emails. The program has four commands:
-
-1. load
-2. display
-3. check
-4. filter
-5. \#
+This program replicates an email filtering system, in which spam is identified based on a "spam list" and is excluded from an output file that contains only non-spam emails. The program uses a C++ vector to input the data from the text files in order to perform certain operations.
 
 ## Usage
 
-```
-222
-```
+The program has four commands:
 
-You can access the previous answer by using `<` inside the expression
-
-```
-22
-```
-
-This calculator also supports any amount of nested parentheses, with support for detecting mismatching pairs
-
-```
-22
-```
+1. load [spam list file name].txt
+2. display
+3. check [single email string]
+4. filter [emails file name].txt [new specified output file name].txt
+5. \#
 
 ### load
 
