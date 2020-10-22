@@ -26,19 +26,61 @@ This calculator also supports any amount of nested parentheses, with support for
 22
 ```
 
-### Supported math operators
+### load
 
-22
+```
+Enter command or # to exit> load spamlist1.txt
+Loading 'spamlist1.txt'
+# of spam entries: 12
+```
+This will load the spamlist, in this case 'spamlist1.txt', into the program to use in other commands
 
-**_\*Note:_** N222
+### display
 
-### Supported math functions
+```
+Enter command or # to exit> display
+aaa.com:user
+bestbuy.com:coupons
+bestbuy.com:offers
+groupon.com:*
+groupon.com:reseller
+important.com:dont_ignore
+massemail.com:*
+organicfoods.com:noreply
+uic.edu:accc
+uic.edu:chancellor
+uic.edu:rewards
+xyz.com:user1
+```
 
-222
+This will display the contents of the spamlist, which in this case is'spamlist1.txt'
 
-### Supported mathematical constants
+### check
 
-222
+```
+Enter command or # to exit> check offers@groupon.com
+offers@groupon.com is spam
+```
+
+This will check a particular email address, in this case 'offers@groupon.com', to see if it's spam
+
+### check
+
+```
+Enter command or # to exit> filter emails1.txt output1.txt
+# emails processed: 21
+# non-spam emails: 11
+```
+
+This will filter an email list, in this case 'emails1.txt', with a spamlist, in this case 'spamlist1.txt', and output the resulting non-spam emails into a new file (which has its name specified by the user)
+
+### \#
+
+```
+Enter command or # to exit> #
+```
+
+This will terminate the program
 
 ## Build/Compile (_with GNU C++ Compiler_)
 
