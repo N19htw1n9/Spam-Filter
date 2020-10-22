@@ -6,7 +6,7 @@ This program replicates an email filtering system, in which spam is identified b
 2. display
 3. check
 4. filter
-5. #
+5. \#
 
 ## Usage
 
