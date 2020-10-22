@@ -78,7 +78,7 @@ First, `cd` into the project directory
 make build
 ```
 
-_This will compile main.cpp and create a corresponding object file, which will be linked as an executable
+This will compile main.cpp and create a corresponding object file, which will be linked as an executable
 
 ## Run
 
@@ -88,7 +88,7 @@ After building/compiling, the executable must be run within the same project dir
 ./build
 ```
 
-_This will initiate your program
+This will initiate your program
 
 
 **_\*Note:_** An executable file `program.exe` has also been provided if the user would like to skip the Build/Compile and Run steps
