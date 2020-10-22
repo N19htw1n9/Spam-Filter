@@ -1,6 +1,12 @@
 # Spam Filter
 
-This
+This program replicates an email filtering system, in which spam is identified based on a "spam list" and is excluded from an output file that contains only non-spam emails. The program has four commands:
+
+1. load
+2. display
+3. check
+4. filter
+5. #
 
 ## Usage
 
@@ -34,18 +40,27 @@ This calculator also supports any amount of nested parentheses, with support for
 
 222
 
-## Build/Compile (_with Maven_)
+## Build/Compile (_with GNU C++ Compiler_)
 
-```
-222
-```
-
-_222
-
-## Run
+A makefile has been provided for compilation and running.
 
 First, `cd` into the project directory
 
 ```
-22
+make build
 ```
+
+_This will compile main.cpp and create a corresponding object file, which will be linked as an executable
+
+## Run
+
+After building/compiling, the executable must be run within the same project directory
+
+```
+./build
+```
+
+_This will initiate your program
+
+
+**_\*Note:_** An executable file `program.exe` has also been provided if the user would like to skip the Build/Compile and Run steps
