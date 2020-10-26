@@ -92,3 +92,13 @@ This will initiate your program
 
 
 **_\*Note:_** An executable file `program.exe` has also been provided if the user would like to skip the Build/Compile and Run steps
+
+## Clean
+
+After building/compiling and running, directory must be "cleaned" of all unnecessary files
+
+```
+make clean
+```
+
+This will remove all corresponding .o files utilized in the execution
