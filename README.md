@@ -50,7 +50,7 @@ offers@groupon.com is spam
 
 This will check a particular email address, in this case 'offers@groupon.com', to see if it's spam
 
-### check
+### filter
 
 ```
 Enter command or # to exit> filter emails1.txt output1.txt
